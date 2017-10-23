@@ -1,14 +1,254 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><pnml>
 <net id="Net-One" type="P/T net">
 <token id="Default" enabled="true" red="0" green="0" blue="0"/>
-<place id="P2">
+<place id="pbba2">
 <graphics>
-<position x="405.0" y="120.0"/>
+<position x="1073.75" y="622.0"/>
 </graphics>
 <name>
-<value>P2</value>
+<value>pbba2</value>
+<graphics>
+<offset x="31.818181818181824" y="39.99999999999999"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
 <graphics>
 <offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pc2Tower">
+<graphics>
+<position x="1351.9999999999998" y="623.6363636363636"/>
+</graphics>
+<name>
+<value>pc2Tower</value>
+<graphics>
+<offset x="41.818181818181806" y="41.818181818181706"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pmc1">
+<graphics>
+<position x="680.1398601398607" y="242.86713286713288"/>
+</graphics>
+<name>
+<value>pmc1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pmc2">
+<graphics>
+<position x="912.0" y="384.5"/>
+</graphics>
+<name>
+<value>pmc2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pmc3">
+<graphics>
+<position x="682.0000000000001" y="419.77777777777777"/>
+</graphics>
+<name>
+<value>pmc3</value>
+<graphics>
+<offset x="2.2222222222222223" y="17.777777777777775"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="psba2">
+<graphics>
+<position x="802.0" y="120.0"/>
+</graphics>
+<name>
+<value>psba2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="psba4">
+<graphics>
+<position x="765.0" y="633.25"/>
+</graphics>
+<name>
+<value>psba4</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pslot2">
+<graphics>
+<position x="1457.7954545454531" y="474.5"/>
+</graphics>
+<name>
+<value>pslot2</value>
+<graphics>
+<offset x="30.90909090909087" y="44.999999999999986"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pslot2-1">
+<graphics>
+<position x="1639.954545454545" y="412.0"/>
+</graphics>
+<name>
+<value>pslot2-1</value>
+<graphics>
+<offset x="37.5" y="40.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pslot2-2">
+<graphics>
+<position x="1641.204545454545" y="475.45454545454544"/>
+</graphics>
+<name>
+<value>pslot2-2</value>
+<graphics>
+<offset x="35.0" y="38.75"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pslot2-3">
+<graphics>
+<position x="1639.954545454545" y="545.9090909090909"/>
+</graphics>
+<name>
+<value>pslot2-3</value>
+<graphics>
+<offset x="28.75" y="41.25"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pslot4">
+<graphics>
+<position x="480.0" y="414.5"/>
+</graphics>
+<name>
+<value>pslot4</value>
+<graphics>
+<offset x="2.2222222222222223" y="21.111111111111107"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pslot5">
+<graphics>
+<position x="562.4166666666666" y="620.2702020202022"/>
+</graphics>
+<name>
+<value>pslot5</value>
+<graphics>
+<offset x="35.555555555555564" y="45.55555555555557"/>
 </graphics>
 </name>
 <initialMarking>
@@ -28,7 +268,87 @@
 <name>
 <value>py1</value>
 <graphics>
+<offset x="23.636363636363637" y="44.54545454545455"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
 <offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="py2">
+<graphics>
+<position x="405.0" y="120.0"/>
+</graphics>
+<name>
+<value>py2</value>
+<graphics>
+<offset x="22.727272727272723" y="46.36363636363635"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pyBasket">
+<graphics>
+<position x="1072.909090909092" y="50.0"/>
+</graphics>
+<name>
+<value>pyBasket</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pyc1">
+<graphics>
+<position x="911.6590909090909" y="57.11363636363636"/>
+</graphics>
+<name>
+<value>pyc1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pyc2">
+<graphics>
+<position x="950.5227272727271" y="552.7272727272729"/>
+</graphics>
+<name>
+<value>pyc2</value>
+<graphics>
+<offset x="31.818181818181817" y="39.09090909090909"/>
 </graphics>
 </name>
 <initialMarking>
@@ -48,7 +368,7 @@
 <name>
 <value>pyRamp</value>
 <graphics>
-<offset x="0.0" y="0.0"/>
+<offset x="40.90909090909091" y="40.90909090909091"/>
 </graphics>
 </name>
 <initialMarking>
@@ -61,6 +381,702 @@
 <value>0</value>
 </capacity>
 </place>
+<place id="pyTower">
+<graphics>
+<position x="480.3496503496509" y="247.27272727272737"/>
+</graphics>
+<name>
+<value>pyTower</value>
+<graphics>
+<offset x="40.9090909090909" y="37.27272727272728"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<transition id="tbba2">
+<graphics>
+<position x="1068.25" y="702.9545454545454"/>
+</graphics>
+<name>
+<value>tbba2</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tbba2-c2Tower">
+<graphics>
+<position x="1194.5" y="622.0"/>
+</graphics>
+<name>
+<value>tbba2-c2Tower</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tbba2-sba2">
+<graphics>
+<position x="923.25" y="202.5"/>
+</graphics>
+<name>
+<value>tbba2-sba2</value>
+<graphics>
+<offset x="40.0" y="43.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tbba2-yc2">
+<graphics>
+<position x="1004.2727272727277" y="566.3181818181824"/>
+</graphics>
+<name>
+<value>tbba2-yc2</value>
+<graphics>
+<offset x="29.545454545454543" y="-2.272727272727282"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tc2Tower">
+<graphics>
+<position x="1351.8181818181815" y="693.590909090909"/>
+</graphics>
+<name>
+<value>tc2Tower</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tmc1-mc3">
+<graphics>
+<position x="680.4895104895105" y="342.6573426573427"/>
+</graphics>
+<name>
+<value>tmc1-mc3</value>
+<graphics>
+<offset x="9.545454545454545" y="19.545454545454557"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tmc1-sba2">
+<graphics>
+<position x="680.9090909090912" y="120.90909090909088"/>
+</graphics>
+<name>
+<value>tmc1-sba2</value>
+<graphics>
+<offset x="10.454545454545453" y="14.090909090909095"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tmc2-c2Tower">
+<graphics>
+<position x="1150.9090909090908" y="531.2045454545455"/>
+</graphics>
+<name>
+<value>tmc2-c2Tower</value>
+<graphics>
+<offset x="51.363636363636346" y="42.27272727272725"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tmc2-slot2">
+<graphics>
+<position x="1132.0" y="397.0"/>
+</graphics>
+<name>
+<value>tmc2-slot2</value>
+<graphics>
+<offset x="39.54545454545454" y="45.00000000000001"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tmc3-mc2">
+<graphics>
+<position x="825.0" y="375.0"/>
+</graphics>
+<name>
+<value>tmc3-mc2</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tmc3-sba2">
+<graphics>
+<position x="806.5277777777777" y="299.22222222222223"/>
+</graphics>
+<name>
+<value>tmc3-sba2</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tmc3-slot2">
+<graphics>
+<position x="825.0" y="457.0"/>
+</graphics>
+<name>
+<value>tmc3-slot2</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tsba2-c2Tower">
+<graphics>
+<position x="1042.75" y="237.00000000000003"/>
+</graphics>
+<name>
+<value>tsba2-c2Tower</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tsba2-mc2">
+<graphics>
+<position x="862.0" y="261.0"/>
+</graphics>
+<name>
+<value>tsba2-mc2</value>
+<graphics>
+<offset x="76.0" y="23.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tsba2-slot2">
+<graphics>
+<position x="1061.5454545454547" y="175.18181818181827"/>
+</graphics>
+<name>
+<value>tsba2-slot2</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tsba2-slot4">
+<graphics>
+<position x="757.0" y="257.0"/>
+</graphics>
+<name>
+<value>tsba2-slot4</value>
+<graphics>
+<offset x="14.0" y="21.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tsba2-yc1">
+<graphics>
+<position x="805.75" y="53.75"/>
+</graphics>
+<name>
+<value>tsba2-yc1</value>
+<graphics>
+<offset x="5.909090909090909" y="15.000000000000002"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tsba4-bba2">
+<graphics>
+<position x="937.0" y="630.75"/>
+</graphics>
+<name>
+<value>tsba4-bba2</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tsba4-yc2">
+<graphics>
+<position x="875.0681818181819" y="555.6363636363636"/>
+</graphics>
+<name>
+<value>tsba4-yc2</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tslot2-1">
+<graphics>
+<position x="1565.1136363636365" y="411.3636363636364"/>
+</graphics>
+<name>
+<value>tslot2-1</value>
+<graphics>
+<offset x="26.25" y="37.5"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tslot2-2">
+<graphics>
+<position x="1560.1136363636365" y="476.0909090909091"/>
+</graphics>
+<name>
+<value>tslot2-2</value>
+<graphics>
+<offset x="26.25" y="41.25"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tslot2-3">
+<graphics>
+<position x="1560.75" y="547.4545454545455"/>
+</graphics>
+<name>
+<value>tslot2-3</value>
+<graphics>
+<offset x="23.75" y="42.5"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tslot2-c2Tower">
+<graphics>
+<position x="1458.590909090908" y="617.6136363636364"/>
+</graphics>
+<name>
+<value>tslot2-c2Tower</value>
+<graphics>
+<offset x="56.81818181818184" y="44.090909090909065"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tslot4-slot5">
+<graphics>
+<position x="479.22222222222223" y="621.3055555555555"/>
+</graphics>
+<name>
+<value>tslot4-slot5</value>
+<graphics>
+<offset x="26.111111111111104" y="42.7777777777778"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tslot5-mc3">
+<graphics>
+<position x="622.6388888888889" y="514.5833333333334"/>
+</graphics>
+<name>
+<value>tslot5-mc3</value>
+<graphics>
+<offset x="42.77777777777781" y="45.00000000000002"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tslot5-sba4">
+<graphics>
+<position x="681.25" y="624.5"/>
+</graphics>
+<name>
+<value>tslot5-sba4</value>
+<graphics>
+<offset x="38.75" y="45.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
 <transition id="ty1">
 <graphics>
 <position x="165.0" y="120.0"/>
@@ -68,7 +1084,7 @@
 <name>
 <value>ty1</value>
 <graphics>
-<offset x="-5.0" y="35.0"/>
+<offset x="23.181818181818183" y="42.27272727272727"/>
 </graphics>
 </name>
 <orientation>
@@ -94,7 +1110,7 @@
 <name>
 <value>ty2</value>
 <graphics>
-<offset x="-5.0" y="35.0"/>
+<offset x="22.272727272727277" y="46.81818181818181"/>
 </graphics>
 </name>
 <orientation>
@@ -113,6 +1129,474 @@
 <value>1</value>
 </priority>
 </transition>
+<transition id="tyc1-ybasket">
+<graphics>
+<position x="978.1818181818181" y="51.25"/>
+</graphics>
+<name>
+<value>tyc1-ybasket</value>
+<graphics>
+<offset x="44.09090909090906" y="40.45454545454545"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tyTower">
+<graphics>
+<position x="480.0" y="120.0"/>
+</graphics>
+<name>
+<value>tyTower</value>
+<graphics>
+<offset x="74.09090909090907" y="14.999999999999995"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tyTower-mc1">
+<graphics>
+<position x="570.3496503496501" y="244.89510489510485"/>
+</graphics>
+<name>
+<value>tyTower-mc1</value>
+<graphics>
+<offset x="49.545454545454504" y="39.54545454545457"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="tyTower-slot4">
+<graphics>
+<position x="480.20979020979024" y="337.2727272727273"/>
+</graphics>
+<name>
+<value>tyTower-slot4</value>
+<graphics>
+<offset x="10.454545454545453" y="22.37373737373737"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<arc id="pbba2 to tbba2" source="pbba2" target="tbba2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1083" y="647" curvePoint="false"/>
+<arcpath id="001" x="1080" y="698" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pbba2 to tbba2-c2Tower" source="pbba2" target="tbba2-c2Tower">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1098" y="632" curvePoint="false"/>
+<arcpath id="001" x="1200" y="633" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pbba2 to tbba2-yc2" source="pbba2" target="tbba2-yc2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1072" y="622" curvePoint="false"/>
+<arcpath id="001" x="1020" y="577" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pc2Tower to tc2Tower" source="pc2Tower" target="tc2Tower">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1362" y="648" curvePoint="false"/>
+<arcpath id="001" x="1363" y="688" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pc2Tower to tmc2-c2Tower" source="pc2Tower" target="tmc2-c2Tower">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1348" y="627" curvePoint="false"/>
+<arcpath id="001" x="1166" y="542" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pc2Tower to tslot2-c2Tower" source="pc2Tower" target="tslot2-c2Tower">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1377" y="633" curvePoint="false"/>
+<arcpath id="001" x="1463" y="628" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pmc1 to tmc1-mc3" source="pmc1" target="tmc1-mc3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="691" y="268" curvePoint="false"/>
+<arcpath id="001" x="692" y="338" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pmc1 to tmc1-sba2" source="pmc1" target="tmc1-sba2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="691" y="238" curvePoint="false"/>
+<arcpath id="001" x="691" y="146" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pmc2 to tmc2-c2Tower" source="pmc2" target="tmc2-c2Tower">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="935" y="402" curvePoint="false"/>
+<arcpath id="001" x="1156" y="542" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pmc2 to tmc2-slot2" source="pmc2" target="tmc2-slot2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="937" y="396" curvePoint="false"/>
+<arcpath id="001" x="1137" y="408" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pmc3 to tmc1-mc3" source="pmc3" target="tmc1-mc3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="692" y="415" curvePoint="false"/>
+<arcpath id="001" x="691" y="368" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pmc3 to tmc3-mc2" source="pmc3" target="tmc3-mc2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="707" y="426" curvePoint="false"/>
+<arcpath id="001" x="830" y="386" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pmc3 to tmc3-sba2" source="pmc3" target="tmc3-sba2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="703" y="420" curvePoint="false"/>
+<arcpath id="001" x="812" y="310" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pmc3 to tmc3-slot2" source="pmc3" target="tmc3-slot2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="707" y="435" curvePoint="false"/>
+<arcpath id="001" x="830" y="468" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="psba2 to tbba2-sba2" source="psba2" target="tbba2-sba2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="825" y="138" curvePoint="false"/>
+<arcpath id="001" x="928" y="213" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="psba2 to tsba2-c2Tower" source="psba2" target="tsba2-c2Tower">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="826" y="137" curvePoint="false"/>
+<arcpath id="001" x="1048" y="242" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="psba2 to tsba2-mc2" source="psba2" target="tsba2-mc2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="818" y="143" curvePoint="false"/>
+<arcpath id="001" x="873" y="256" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="psba2 to tsba2-slot2" source="psba2" target="tsba2-slot2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="827" y="133" curvePoint="false"/>
+<arcpath id="001" x="1067" y="186" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="psba2 to tsba2-slot4" source="psba2" target="tsba2-slot4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="807" y="145" curvePoint="false"/>
+<arcpath id="001" x="768" y="252" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="psba2 to tsba2-yc1" source="psba2" target="tsba2-yc1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="813" y="116" curvePoint="false"/>
+<arcpath id="001" x="816" y="80" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="psba4 to tsba4-bba2" source="psba4" target="tsba4-bba2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="790" y="643" curvePoint="false"/>
+<arcpath id="001" x="942" y="642" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="psba4 to tsba4-yc2" source="psba4" target="tsba4-yc2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="787" y="635" curvePoint="false"/>
+<arcpath id="001" x="881" y="567" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pslot2 to tslot2-1" source="pslot2" target="tslot2-1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1481" y="477" curvePoint="false"/>
+<arcpath id="001" x="1571" y="422" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pslot2 to tslot2-2" source="pslot2" target="tslot2-2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1483" y="485" curvePoint="false"/>
+<arcpath id="001" x="1566" y="487" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pslot2 to tslot2-3" source="pslot2" target="tslot2-3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1480" y="493" curvePoint="false"/>
+<arcpath id="001" x="1566" y="558" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pslot4 to tslot4-slot5" source="pslot4" target="tslot4-slot5">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="491" y="440" curvePoint="false"/>
+<arcpath id="001" x="491" y="617" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pslot5 to tslot5-mc3" source="pslot5" target="tslot5-mc3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="581" y="618" curvePoint="false"/>
+<arcpath id="001" x="633" y="540" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pslot5 to tslot5-sba4" source="pslot5" target="tslot5-sba4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="587" y="631" curvePoint="false"/>
+<arcpath id="001" x="686" y="636" curvePoint="false"/>
+<type value="normal"/>
+</arc>
 <arc id="py1 to ty1" source="py1" target="ty1">
 <graphics/>
 <inscription>
@@ -124,6 +1608,45 @@
 </tagged>
 <arcpath id="000" x="100" y="131" curvePoint="false"/>
 <arcpath id="001" x="170" y="131" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="py2 to tyTower" source="py2" target="tyTower">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="430" y="131" curvePoint="false"/>
+<arcpath id="001" x="485" y="131" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pyc1 to tyc1-ybasket" source="pyc1" target="tyc1-ybasket">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="937" y="66" curvePoint="false"/>
+<arcpath id="001" x="983" y="62" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pyc2 to tbba2-yc2" source="pyc2" target="tbba2-yc2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="975" y="567" curvePoint="false"/>
+<arcpath id="001" x="1010" y="577" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pyRamp to ty2" source="pyRamp" target="ty2">
@@ -139,6 +1662,305 @@
 <arcpath id="001" x="335" y="131" curvePoint="false"/>
 <type value="normal"/>
 </arc>
+<arc id="pyTower to tyTower-mc1" source="pyTower" target="tyTower-mc1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="506" y="257" curvePoint="false"/>
+<arcpath id="001" x="576" y="256" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pyTower to tyTower-slot4" source="pyTower" target="tyTower-slot4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="491" y="272" curvePoint="false"/>
+<arcpath id="001" x="491" y="332" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tbba2-c2Tower to pc2Tower" source="tbba2-c2Tower" target="pc2Tower">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1210" y="632" curvePoint="false"/>
+<arcpath id="001" x="1347" y="633" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tbba2-sba2 to pbba2" source="tbba2-sba2" target="pbba2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="933" y="228" curvePoint="false"/>
+<arcpath id="001" x="1078" y="618" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tmc1-sba2 to psba2" source="tmc1-sba2" target="psba2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="696" y="131" curvePoint="false"/>
+<arcpath id="001" x="797" y="131" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tmc2-slot2 to pslot2" source="tmc2-slot2" target="pslot2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1147" y="407" curvePoint="false"/>
+<arcpath id="001" x="1453" y="481" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tmc3-mc2 to pmc2" source="tmc3-mc2" target="pmc2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="840" y="386" curvePoint="false"/>
+<arcpath id="001" x="907" y="393" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tmc3-sba2 to psba2" source="tmc3-sba2" target="psba2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="817" y="295" curvePoint="false"/>
+<arcpath id="001" x="812" y="145" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tmc3-slot2 to pslot2" source="tmc3-slot2" target="pslot2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="840" y="467" curvePoint="false"/>
+<arcpath id="001" x="1453" y="485" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tsba2-c2Tower to pc2Tower" source="tsba2-c2Tower" target="pc2Tower">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1058" y="247" curvePoint="false"/>
+<arcpath id="001" x="1353" y="622" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tsba2-mc2 to pmc2" source="tsba2-mc2" target="pmc2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="872" y="286" curvePoint="false"/>
+<arcpath id="001" x="916" y="381" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tsba2-slot2 to pslot2" source="tsba2-slot2" target="pslot2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1077" y="186" curvePoint="false"/>
+<arcpath id="001" x="1456" y="476" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tsba2-slot4 to pslot4" source="tsba2-slot4" target="pslot4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="762" y="268" curvePoint="false"/>
+<arcpath id="001" x="503" y="417" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tsba2-yc1 to pyc1" source="tsba2-yc1" target="pyc1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="821" y="65" curvePoint="false"/>
+<arcpath id="001" x="907" y="67" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tsba4-bba2 to pbba2" source="tsba4-bba2" target="pbba2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="952" y="641" curvePoint="false"/>
+<arcpath id="001" x="1070" y="633" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tsba4-yc2 to pyc2" source="tsba4-yc2" target="pyc2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="891" y="566" curvePoint="false"/>
+<arcpath id="001" x="946" y="563" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tslot2-1 to pslot2-1" source="tslot2-1" target="pslot2-1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1581" y="422" curvePoint="false"/>
+<arcpath id="001" x="1635" y="422" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tslot2-2 to pslot2-2" source="tslot2-2" target="pslot2-2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1576" y="487" curvePoint="false"/>
+<arcpath id="001" x="1636" y="486" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tslot2-3 to pslot2-3" source="tslot2-3" target="pslot2-3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1576" y="558" curvePoint="false"/>
+<arcpath id="001" x="1635" y="557" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tslot2-c2Tower to pslot2" source="tslot2-c2Tower" target="pslot2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1470" y="613" curvePoint="false"/>
+<arcpath id="001" x="1468" y="500" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tslot4-slot5 to pslot5" source="tslot4-slot5" target="pslot5">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="495" y="632" curvePoint="false"/>
+<arcpath id="001" x="557" y="631" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tslot5-mc3 to pmc3" source="tslot5-mc3" target="pmc3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="638" y="525" curvePoint="false"/>
+<arcpath id="001" x="685" y="443" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tslot5-sba4 to psba4" source="tslot5-sba4" target="psba4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="696" y="635" curvePoint="false"/>
+<arcpath id="001" x="761" y="642" curvePoint="false"/>
+<type value="normal"/>
+</arc>
 <arc id="ty1 to pyRamp" source="ty1" target="pyRamp">
 <graphics/>
 <inscription>
@@ -152,7 +1974,7 @@
 <arcpath id="001" x="236" y="131" curvePoint="false"/>
 <type value="normal"/>
 </arc>
-<arc id="ty2 to P2" source="ty2" target="P2">
+<arc id="ty2 to py2" source="ty2" target="py2">
 <graphics/>
 <inscription>
 <value>Default,1</value>
@@ -163,6 +1985,58 @@
 </tagged>
 <arcpath id="000" x="345" y="131" curvePoint="false"/>
 <arcpath id="001" x="401" y="131" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tyc1-ybasket to pyBasket" source="tyc1-ybasket" target="pyBasket">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="993" y="62" curvePoint="false"/>
+<arcpath id="001" x="1068" y="61" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tyTower-mc1 to pmc1" source="tyTower-mc1" target="pmc1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="586" y="256" curvePoint="false"/>
+<arcpath id="001" x="676" y="253" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tyTower-slot4 to pslot4" source="tyTower-slot4" target="pslot4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="491" y="362" curvePoint="false"/>
+<arcpath id="001" x="491" y="410" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tyTower to pyTower" source="tyTower" target="pyTower">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="491" y="146" curvePoint="false"/>
+<arcpath id="001" x="491" y="242" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 </net>
