@@ -1,4 +1,4 @@
-clear all; clc;
+close all; clear all; clc;
 global global_info;
 global_info.STOP_AT = 15;
 
@@ -11,5 +11,6 @@ pni = initialdynamics(pns, dynamic);
 sim = gpensim(pni);
 
 plotp(sim, {'py1','pyRamp','py2', 'pyBasket','pmc1', 'pmc2', 'pmc3', 'pyTower', 'pyc1', 'pyc2', 'pc2Tower','pslot2', 'pslot4', 'pslot5', 'psba2', 'psba4', 'pbba2'})
-
-prnss(sim);
+plotp(sim, {'py1','pWheels','pRobot1','pCannon','pBrush'})
+prnfinalcolors(sim)
+%prnss(sim)
