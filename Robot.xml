@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+<net id="Net-One" type="P/T net">
+<token id="Default" enabled="true" red="0" green="0" blue="0"/>
+<place id="pBrush">
+<graphics>
+<position x="195.0" y="165.0"/>
+</graphics>
+<name>
+<value>pBrush</value>
+<graphics>
+<offset x="1.25" y="15.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pCannon">
+<graphics>
+<position x="195.0" y="120.0"/>
+</graphics>
+<name>
+<value>pCannon</value>
+<graphics>
+<offset x="0.0" y="25.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pRobot1">
+<graphics>
+<position x="360.0" y="165.0"/>
+</graphics>
+<name>
+<value>pRobot1</value>
+<graphics>
+<offset x="64.0" y="-14.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pRobotOrder">
+<graphics>
+<position x="480.0" y="225.0"/>
+</graphics>
+<name>
+<value>pRobotOrder</value>
+<graphics>
+<offset x="65.0" y="-4.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pWheels">
+<graphics>
+<position x="195.0" y="210.0"/>
+</graphics>
+<name>
+<value>pWheels</value>
+<graphics>
+<offset x="-5.0" y="17.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<transition id="T0">
+<graphics>
+<position x="435.0" y="165.0"/>
+</graphics>
+<name>
+<value>T0</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T1">
+<graphics>
+<position x="285.0" y="210.0"/>
+</graphics>
+<name>
+<value>T1</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T2">
+<graphics>
+<position x="285.0" y="165.0"/>
+</graphics>
+<name>
+<value>T2</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T3">
+<graphics>
+<position x="285.0" y="120.0"/>
+</graphics>
+<name>
+<value>T3</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<arc id="pRobot1 to T1" source="pRobot1" target="T1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="357" y="183" curvePoint="false"/>
+<arcpath id="001" x="300" y="221" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pRobot1 to T2" source="pRobot1" target="T2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="356" y="176" curvePoint="false"/>
+<arcpath id="001" x="300" y="176" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pRobot1 to T3" source="pRobot1" target="T3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="357" y="167" curvePoint="false"/>
+<arcpath id="001" x="300" y="131" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pRobotOrder to T0" source="pRobotOrder" target="T0">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="482" y="223" curvePoint="false"/>
+<arcpath id="001" x="450" y="176" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T0 to pRobot1" source="T0" target="pRobot1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="440" y="176" curvePoint="false"/>
+<arcpath id="001" x="385" y="176" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T1 to pWheels" source="T1" target="pWheels">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="290" y="221" curvePoint="false"/>
+<arcpath id="001" x="220" y="221" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T2 to pBrush" source="T2" target="pBrush">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="290" y="176" curvePoint="false"/>
+<arcpath id="001" x="220" y="176" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T3 to pCannon" source="T3" target="pCannon">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="290" y="131" curvePoint="false"/>
+<arcpath id="001" x="220" y="131" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+</net>
+</pnml>
