@@ -41,6 +41,66 @@
 <value>0</value>
 </capacity>
 </place>
+<place id="pFunny">
+<graphics>
+<position x="180.0" y="255.0"/>
+</graphics>
+<name>
+<value>pFunny</value>
+<graphics>
+<offset x="-11.111111111111114" y="25.55555555555555"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="plThongClose">
+<graphics>
+<position x="895.0" y="288.3333333333333"/>
+</graphics>
+<name>
+<value>plThongClose</value>
+<graphics>
+<offset x="25.55555555555557" y="58.88888888888889"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="plThongOpen">
+<graphics>
+<position x="913.3333333333333" y="225.0"/>
+</graphics>
+<name>
+<value>plThongOpen</value>
+<graphics>
+<offset x="100.0000000000001" y="37.77777777777777"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
 <place id="pRobot1">
 <graphics>
 <position x="360.0" y="165.0"/>
@@ -61,14 +121,14 @@
 <value>0</value>
 </capacity>
 </place>
-<place id="pRobotOrder">
+<place id="pRobot2">
 <graphics>
-<position x="480.0" y="225.0"/>
+<position x="580.0" y="150.0"/>
 </graphics>
 <name>
-<value>pRobotOrder</value>
+<value>pRobot2</value>
 <graphics>
-<offset x="65.0" y="-4.0"/>
+<offset x="0.0" y="0.0"/>
 </graphics>
 </name>
 <initialMarking>
@@ -81,14 +141,114 @@
 <value>0</value>
 </capacity>
 </place>
-<place id="pWheels">
+<place id="pRobotOrder">
+<graphics>
+<position x="480.0" y="225.0"/>
+</graphics>
+<name>
+<value>pRobotOrder</value>
+<graphics>
+<offset x="36.11111111111108" y="69.33333333333339"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="prThongClose">
+<graphics>
+<position x="913.3333333333333" y="116.66666666666669"/>
+</graphics>
+<name>
+<value>prThongClose</value>
+<graphics>
+<offset x="98.88888888888903" y="1.1111111111111112"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="prThongOpen">
+<graphics>
+<position x="918.3333333333333" y="163.33333333333334"/>
+</graphics>
+<name>
+<value>prThongOpen</value>
+<graphics>
+<offset x="94.4444444444445" y="-4.444444444444446"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pThongs">
+<graphics>
+<position x="746.6666666666666" y="193.33333333333331"/>
+</graphics>
+<name>
+<value>pThongs</value>
+<graphics>
+<offset x="37.77777777777778" y="-2.222222222222217"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pWheels1">
 <graphics>
 <position x="195.0" y="210.0"/>
 </graphics>
 <name>
-<value>pWheels</value>
+<value>pWheels1</value>
 <graphics>
 <offset x="-5.0" y="17.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pWheels2">
+<graphics>
+<position x="733.3333333333334" y="103.33333333333333"/>
+</graphics>
+<name>
+<value>pWheels2</value>
+<graphics>
+<offset x="51.1111111111111" y="-3.333333333333338"/>
 </graphics>
 </name>
 <initialMarking>
@@ -133,6 +293,58 @@
 </graphics>
 <name>
 <value>T1</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T10">
+<graphics>
+<position x="820.0" y="225.0"/>
+</graphics>
+<name>
+<value>T10</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T11">
+<graphics>
+<position x="820.0" y="165.0"/>
+</graphics>
+<name>
+<value>T11</value>
 <graphics>
 <offset x="-5.0" y="35.0"/>
 </graphics>
@@ -205,6 +417,188 @@
 <value>1</value>
 </priority>
 </transition>
+<transition id="T4">
+<graphics>
+<position x="520.0" y="165.0"/>
+</graphics>
+<name>
+<value>T4</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T5">
+<graphics>
+<position x="670.0" y="101.66666666666666"/>
+</graphics>
+<name>
+<value>T5</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T6">
+<graphics>
+<position x="670.0" y="193.33333333333331"/>
+</graphics>
+<name>
+<value>T6</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T7">
+<graphics>
+<position x="285.0" y="255.0"/>
+</graphics>
+<name>
+<value>T7</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T8">
+<graphics>
+<position x="820.0" y="115.0"/>
+</graphics>
+<name>
+<value>T8</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T9">
+<graphics>
+<position x="820.0" y="290.0"/>
+</graphics>
+<name>
+<value>T9</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<arc id="plThongClose to T10" source="plThongClose" target="T10">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="895" y="287" curvePoint="false"/>
+<arcpath id="001" x="835" y="241" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="plThongClose to T9" source="plThongClose" target="T9">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="891" y="297" curvePoint="false"/>
+<arcpath id="001" x="835" y="295" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
 <arc id="pRobot1 to T1" source="pRobot1" target="T1">
 <graphics/>
 <inscription>
@@ -227,8 +621,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="356" y="176" curvePoint="false"/>
-<arcpath id="001" x="300" y="176" curvePoint="false"/>
+<arcpath id="000" x="355" y="175" curvePoint="false"/>
+<arcpath id="001" x="300" y="175" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pRobot1 to T3" source="pRobot1" target="T3">
@@ -244,6 +638,45 @@
 <arcpath id="001" x="300" y="131" curvePoint="false"/>
 <type value="normal"/>
 </arc>
+<arc id="pRobot1 to T7" source="pRobot1" target="T7">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="361" y="187" curvePoint="false"/>
+<arcpath id="001" x="300" y="265" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pRobot2 to T5" source="pRobot2" target="T5">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="603" y="153" curvePoint="false"/>
+<arcpath id="001" x="675" y="113" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pRobot2 to T6" source="pRobot2" target="T6">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="604" y="166" curvePoint="false"/>
+<arcpath id="001" x="675" y="204" curvePoint="false"/>
+<type value="normal"/>
+</arc>
 <arc id="pRobotOrder to T0" source="pRobotOrder" target="T0">
 <graphics/>
 <inscription>
@@ -254,7 +687,98 @@
 <value>false</value>
 </tagged>
 <arcpath id="000" x="482" y="223" curvePoint="false"/>
-<arcpath id="001" x="450" y="176" curvePoint="false"/>
+<arcpath id="001" x="450" y="175" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pRobotOrder to T4" source="pRobotOrder" target="T4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="497" y="222" curvePoint="false"/>
+<arcpath id="001" x="525" y="176" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="prThongClose to T11" source="prThongClose" target="T11">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="911" y="134" curvePoint="false"/>
+<arcpath id="001" x="835" y="171" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="prThongClose to T8" source="prThongClose" target="T8">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="908" y="127" curvePoint="false"/>
+<arcpath id="001" x="835" y="131" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="pThongs to T10" source="pThongs" target="T10">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="771" y="208" curvePoint="false"/>
+<arcpath id="001" x="825" y="236" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pThongs to T11" source="pThongs" target="T11">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="771" y="198" curvePoint="false"/>
+<arcpath id="001" x="825" y="176" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pThongs to T8" source="pThongs" target="T8">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="767" y="193" curvePoint="false"/>
+<arcpath id="001" x="825" y="126" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pThongs to T9" source="pThongs" target="T9">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="766" y="215" curvePoint="false"/>
+<arcpath id="001" x="825" y="301" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T0 to pRobot1" source="T0" target="pRobot1">
@@ -267,10 +791,36 @@
 <value>false</value>
 </tagged>
 <arcpath id="000" x="440" y="176" curvePoint="false"/>
-<arcpath id="001" x="385" y="176" curvePoint="false"/>
+<arcpath id="001" x="385" y="175" curvePoint="false"/>
 <type value="normal"/>
 </arc>
-<arc id="T1 to pWheels" source="T1" target="pWheels">
+<arc id="T10 to plThongOpen" source="T10" target="plThongOpen">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="835" y="231" curvePoint="false"/>
+<arcpath id="001" x="908" y="234" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T11 to prThongOpen" source="T11" target="prThongOpen">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="835" y="181" curvePoint="false"/>
+<arcpath id="001" x="914" y="174" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T1 to pWheels" source="T1" target="pWheels1">
 <graphics/>
 <inscription>
 <value>Default,1</value>
@@ -293,7 +843,7 @@
 <value>false</value>
 </tagged>
 <arcpath id="000" x="290" y="176" curvePoint="false"/>
-<arcpath id="001" x="220" y="176" curvePoint="false"/>
+<arcpath id="001" x="220" y="175" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T3 to pCannon" source="T3" target="pCannon">
@@ -307,6 +857,84 @@
 </tagged>
 <arcpath id="000" x="290" y="131" curvePoint="false"/>
 <arcpath id="001" x="220" y="131" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T4 to pRobot2" source="T4" target="pRobot2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="535" y="175" curvePoint="false"/>
+<arcpath id="001" x="575" y="164" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T5 to pWheels2" source="T5" target="pWheels2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="685" y="112" curvePoint="false"/>
+<arcpath id="001" x="728" y="113" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T6 to pThongs" source="T6" target="pThongs">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="685" y="204" curvePoint="false"/>
+<arcpath id="001" x="742" y="203" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T7 to pFunny" source="T7" target="pFunny">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="290" y="266" curvePoint="false"/>
+<arcpath id="001" x="205" y="265" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T8 to prThongClose" source="T8" target="prThongClose">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="835" y="121" curvePoint="false"/>
+<arcpath id="001" x="908" y="125" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T9 to plThongClose" source="T9" target="plThongClose">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="835" y="305" curvePoint="false"/>
+<arcpath id="001" x="891" y="300" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 </net>
