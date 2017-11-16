@@ -8,7 +8,7 @@
 <name>
 <value>pBrush</value>
 <graphics>
-<offset x="1.25" y="15.0"/>
+<offset x="-13.75" y="35.0"/>
 </graphics>
 </name>
 <initialMarking>
@@ -28,7 +28,7 @@
 <name>
 <value>pCannon</value>
 <graphics>
-<offset x="0.0" y="25.0"/>
+<offset x="-8.0" y="23.0"/>
 </graphics>
 </name>
 <initialMarking>
@@ -48,7 +48,7 @@
 <name>
 <value>pFunny</value>
 <graphics>
-<offset x="-11.111111111111114" y="25.55555555555555"/>
+<offset x="-12.111111111111114" y="24.55555555555555"/>
 </graphics>
 </name>
 <initialMarking>
@@ -63,7 +63,7 @@
 </place>
 <place id="plThongClose">
 <graphics>
-<position x="895.0" y="288.3333333333333"/>
+<position x="900.0" y="285.0"/>
 </graphics>
 <name>
 <value>plThongClose</value>
@@ -83,7 +83,7 @@
 </place>
 <place id="plThongOpen">
 <graphics>
-<position x="913.3333333333333" y="225.0"/>
+<position x="915.0" y="225.0"/>
 </graphics>
 <name>
 <value>plThongOpen</value>
@@ -123,7 +123,7 @@
 </place>
 <place id="pRobot2">
 <graphics>
-<position x="580.0" y="150.0"/>
+<position x="585.0" y="150.0"/>
 </graphics>
 <name>
 <value>pRobot2</value>
@@ -163,7 +163,7 @@
 </place>
 <place id="prThongClose">
 <graphics>
-<position x="913.3333333333333" y="116.66666666666669"/>
+<position x="915.0" y="120.0"/>
 </graphics>
 <name>
 <value>prThongClose</value>
@@ -183,7 +183,7 @@
 </place>
 <place id="prThongOpen">
 <graphics>
-<position x="918.3333333333333" y="163.33333333333334"/>
+<position x="915.0" y="165.0"/>
 </graphics>
 <name>
 <value>prThongOpen</value>
@@ -203,7 +203,7 @@
 </place>
 <place id="pThongs">
 <graphics>
-<position x="746.6666666666666" y="193.33333333333331"/>
+<position x="750.0" y="195.0"/>
 </graphics>
 <name>
 <value>pThongs</value>
@@ -228,7 +228,7 @@
 <name>
 <value>pWheels1</value>
 <graphics>
-<offset x="-5.0" y="17.5"/>
+<offset x="-9.0" y="24.5"/>
 </graphics>
 </name>
 <initialMarking>
@@ -243,7 +243,7 @@
 </place>
 <place id="pWheels2">
 <graphics>
-<position x="733.3333333333334" y="103.33333333333333"/>
+<position x="735.0" y="105.0"/>
 </graphics>
 <name>
 <value>pWheels2</value>
@@ -315,7 +315,7 @@
 </transition>
 <transition id="T10">
 <graphics>
-<position x="820.0" y="225.0"/>
+<position x="825.0" y="225.0"/>
 </graphics>
 <name>
 <value>T10</value>
@@ -341,10 +341,36 @@
 </transition>
 <transition id="T11">
 <graphics>
-<position x="820.0" y="165.0"/>
+<position x="825.0" y="165.0"/>
 </graphics>
 <name>
 <value>T11</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T12">
+<graphics>
+<position x="60.0" y="201.0"/>
+</graphics>
+<name>
+<value>T12</value>
 <graphics>
 <offset x="-5.0" y="35.0"/>
 </graphics>
@@ -419,7 +445,7 @@
 </transition>
 <transition id="T4">
 <graphics>
-<position x="520.0" y="165.0"/>
+<position x="525.0" y="165.0"/>
 </graphics>
 <name>
 <value>T4</value>
@@ -445,7 +471,7 @@
 </transition>
 <transition id="T5">
 <graphics>
-<position x="670.0" y="101.66666666666666"/>
+<position x="675.0" y="105.0"/>
 </graphics>
 <name>
 <value>T5</value>
@@ -471,7 +497,7 @@
 </transition>
 <transition id="T6">
 <graphics>
-<position x="670.0" y="193.33333333333331"/>
+<position x="675.0" y="195.0"/>
 </graphics>
 <name>
 <value>T6</value>
@@ -523,7 +549,7 @@
 </transition>
 <transition id="T8">
 <graphics>
-<position x="820.0" y="115.0"/>
+<position x="825.0" y="120.0"/>
 </graphics>
 <name>
 <value>T8</value>
@@ -549,7 +575,7 @@
 </transition>
 <transition id="T9">
 <graphics>
-<position x="820.0" y="290.0"/>
+<position x="825.0" y="285.0"/>
 </graphics>
 <name>
 <value>T9</value>
@@ -582,8 +608,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="895" y="287" curvePoint="false"/>
-<arcpath id="001" x="835" y="241" curvePoint="false"/>
+<arcpath id="000" x="900" y="287" curvePoint="false"/>
+<arcpath id="001" x="841" y="242" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="plThongClose to T9" source="plThongClose" target="T9">
@@ -595,8 +621,8 @@
 <tagged>
 <value/>
 </tagged>
-<arcpath id="000" x="891" y="297" curvePoint="false"/>
-<arcpath id="001" x="835" y="295" curvePoint="false"/>
+<arcpath id="000" x="897" y="297" curvePoint="false"/>
+<arcpath id="001" x="842" y="292" curvePoint="false"/>
 <type value="inhibitor"/>
 </arc>
 <arc id="pRobot1 to T1" source="pRobot1" target="T1">
@@ -608,8 +634,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="357" y="183" curvePoint="false"/>
-<arcpath id="001" x="300" y="221" curvePoint="false"/>
+<arcpath id="000" x="359" y="185" curvePoint="false"/>
+<arcpath id="001" x="301" y="222" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pRobot1 to T2" source="pRobot1" target="T2">
@@ -621,8 +647,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="355" y="175" curvePoint="false"/>
-<arcpath id="001" x="300" y="175" curvePoint="false"/>
+<arcpath id="000" x="357" y="177" curvePoint="false"/>
+<arcpath id="001" x="301" y="177" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pRobot1 to T3" source="pRobot1" target="T3">
@@ -634,8 +660,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="357" y="167" curvePoint="false"/>
-<arcpath id="001" x="300" y="131" curvePoint="false"/>
+<arcpath id="000" x="359" y="168" curvePoint="false"/>
+<arcpath id="001" x="301" y="132" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pRobot1 to T7" source="pRobot1" target="T7">
@@ -647,8 +673,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="361" y="187" curvePoint="false"/>
-<arcpath id="001" x="300" y="265" curvePoint="false"/>
+<arcpath id="000" x="362" y="188" curvePoint="false"/>
+<arcpath id="001" x="301" y="267" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pRobot2 to T5" source="pRobot2" target="T5">
@@ -660,8 +686,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="603" y="153" curvePoint="false"/>
-<arcpath id="001" x="675" y="113" curvePoint="false"/>
+<arcpath id="000" x="610" y="155" curvePoint="false"/>
+<arcpath id="001" x="681" y="117" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pRobot2 to T6" source="pRobot2" target="T6">
@@ -673,8 +699,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="604" y="166" curvePoint="false"/>
-<arcpath id="001" x="675" y="204" curvePoint="false"/>
+<arcpath id="000" x="610" y="169" curvePoint="false"/>
+<arcpath id="001" x="681" y="207" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pRobotOrder to T0" source="pRobotOrder" target="T0">
@@ -686,8 +712,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="482" y="223" curvePoint="false"/>
-<arcpath id="001" x="450" y="175" curvePoint="false"/>
+<arcpath id="000" x="483" y="224" curvePoint="false"/>
+<arcpath id="001" x="451" y="177" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pRobotOrder to T4" source="pRobotOrder" target="T4">
@@ -699,8 +725,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="497" y="222" curvePoint="false"/>
-<arcpath id="001" x="525" y="176" curvePoint="false"/>
+<arcpath id="000" x="500" y="224" curvePoint="false"/>
+<arcpath id="001" x="531" y="177" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="prThongClose to T11" source="prThongClose" target="T11">
@@ -712,8 +738,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="911" y="134" curvePoint="false"/>
-<arcpath id="001" x="835" y="171" curvePoint="false"/>
+<arcpath id="000" x="913" y="139" curvePoint="false"/>
+<arcpath id="001" x="842" y="172" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="prThongClose to T8" source="prThongClose" target="T8">
@@ -725,8 +751,8 @@
 <tagged>
 <value/>
 </tagged>
-<arcpath id="000" x="908" y="127" curvePoint="false"/>
-<arcpath id="001" x="835" y="131" curvePoint="false"/>
+<arcpath id="000" x="912" y="132" curvePoint="false"/>
+<arcpath id="001" x="841" y="137" curvePoint="false"/>
 <type value="inhibitor"/>
 </arc>
 <arc id="pThongs to T10" source="pThongs" target="T10">
@@ -738,8 +764,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="771" y="208" curvePoint="false"/>
-<arcpath id="001" x="825" y="236" curvePoint="false"/>
+<arcpath id="000" x="775" y="213" curvePoint="false"/>
+<arcpath id="001" x="831" y="237" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pThongs to T11" source="pThongs" target="T11">
@@ -751,8 +777,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="771" y="198" curvePoint="false"/>
-<arcpath id="001" x="825" y="176" curvePoint="false"/>
+<arcpath id="000" x="775" y="201" curvePoint="false"/>
+<arcpath id="001" x="831" y="177" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pThongs to T8" source="pThongs" target="T8">
@@ -764,8 +790,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="767" y="193" curvePoint="false"/>
-<arcpath id="001" x="825" y="126" curvePoint="false"/>
+<arcpath id="000" x="772" y="196" curvePoint="false"/>
+<arcpath id="001" x="831" y="132" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pThongs to T9" source="pThongs" target="T9">
@@ -777,8 +803,21 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="766" y="215" curvePoint="false"/>
-<arcpath id="001" x="825" y="301" curvePoint="false"/>
+<arcpath id="000" x="771" y="218" curvePoint="false"/>
+<arcpath id="001" x="831" y="297" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pWheels1 to T12" source="pWheels1" target="T12">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="192" y="220" curvePoint="false"/>
+<arcpath id="001" x="77" y="208" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T0 to pRobot1" source="T0" target="pRobot1">
@@ -790,8 +829,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="440" y="176" curvePoint="false"/>
-<arcpath id="001" x="385" y="175" curvePoint="false"/>
+<arcpath id="000" x="441" y="177" curvePoint="false"/>
+<arcpath id="001" x="386" y="177" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T10 to plThongOpen" source="T10" target="plThongOpen">
@@ -803,8 +842,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="835" y="231" curvePoint="false"/>
-<arcpath id="001" x="908" y="234" curvePoint="false"/>
+<arcpath id="000" x="842" y="232" curvePoint="false"/>
+<arcpath id="001" x="912" y="236" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T11 to prThongOpen" source="T11" target="prThongOpen">
@@ -816,8 +855,21 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="835" y="181" curvePoint="false"/>
-<arcpath id="001" x="914" y="174" curvePoint="false"/>
+<arcpath id="000" x="841" y="182" curvePoint="false"/>
+<arcpath id="001" x="912" y="177" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T12 to pWheels1" source="T12" target="pWheels1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="76" y="218" curvePoint="false"/>
+<arcpath id="001" x="192" y="221" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T1 to pWheels" source="T1" target="pWheels1">
@@ -829,8 +881,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="290" y="221" curvePoint="false"/>
-<arcpath id="001" x="220" y="221" curvePoint="false"/>
+<arcpath id="000" x="291" y="222" curvePoint="false"/>
+<arcpath id="001" x="221" y="222" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T2 to pBrush" source="T2" target="pBrush">
@@ -842,8 +894,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="290" y="176" curvePoint="false"/>
-<arcpath id="001" x="220" y="175" curvePoint="false"/>
+<arcpath id="000" x="291" y="177" curvePoint="false"/>
+<arcpath id="001" x="221" y="177" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T3 to pCannon" source="T3" target="pCannon">
@@ -855,8 +907,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="290" y="131" curvePoint="false"/>
-<arcpath id="001" x="220" y="131" curvePoint="false"/>
+<arcpath id="000" x="291" y="132" curvePoint="false"/>
+<arcpath id="001" x="221" y="132" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T4 to pRobot2" source="T4" target="pRobot2">
@@ -868,8 +920,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="535" y="175" curvePoint="false"/>
-<arcpath id="001" x="575" y="164" curvePoint="false"/>
+<arcpath id="000" x="541" y="177" curvePoint="false"/>
+<arcpath id="001" x="582" y="166" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T5 to pWheels2" source="T5" target="pWheels2">
@@ -881,8 +933,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="685" y="112" curvePoint="false"/>
-<arcpath id="001" x="728" y="113" curvePoint="false"/>
+<arcpath id="000" x="691" y="117" curvePoint="false"/>
+<arcpath id="001" x="732" y="117" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T6 to pThongs" source="T6" target="pThongs">
@@ -894,8 +946,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="685" y="204" curvePoint="false"/>
-<arcpath id="001" x="742" y="203" curvePoint="false"/>
+<arcpath id="000" x="691" y="207" curvePoint="false"/>
+<arcpath id="001" x="747" y="207" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T7 to pFunny" source="T7" target="pFunny">
@@ -907,8 +959,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="290" y="266" curvePoint="false"/>
-<arcpath id="001" x="205" y="265" curvePoint="false"/>
+<arcpath id="000" x="291" y="267" curvePoint="false"/>
+<arcpath id="001" x="206" y="267" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T8 to prThongClose" source="T8" target="prThongClose">
@@ -920,8 +972,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="835" y="121" curvePoint="false"/>
-<arcpath id="001" x="908" y="125" curvePoint="false"/>
+<arcpath id="000" x="842" y="127" curvePoint="false"/>
+<arcpath id="001" x="912" y="131" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T9 to plThongClose" source="T9" target="plThongClose">
@@ -933,8 +985,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="835" y="305" curvePoint="false"/>
-<arcpath id="001" x="891" y="300" curvePoint="false"/>
+<arcpath id="000" x="841" y="302" curvePoint="false"/>
+<arcpath id="001" x="897" y="298" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 </net>

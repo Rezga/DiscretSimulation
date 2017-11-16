@@ -28,7 +28,27 @@
 <name>
 <value>pPlace2</value>
 <graphics>
-<offset x="-11.0" y="38.0"/>
+<offset x="49.0" y="44.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="pRobotOrder">
+<graphics>
+<position x="330.0" y="465.0"/>
+</graphics>
+<name>
+<value>pRobotOrder</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
 </graphics>
 </name>
 <initialMarking>
@@ -154,7 +174,7 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="328" y="78" curvePoint="false"/>
+<arcpath id="000" x="328" y="79" curvePoint="false"/>
 <arcpath id="001" x="212" y="139" curvePoint="false"/>
 <type value="normal"/>
 </arc>
@@ -262,6 +282,19 @@
 <arcpath id="001" x="330" y="242" curvePoint="false"/>
 <type value="normal"/>
 </arc>
+<arc id="tpPlace1_pPlace2_1 to pRobotOrder" source="tpPlace1_pPlace2_1" target="pRobotOrder">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="207" y="162" curvePoint="false"/>
+<arcpath id="001" x="336" y="463" curvePoint="false"/>
+<type value="normal"/>
+</arc>
 <arc id="tpPlace1_pPlace2_2 to pPlace2" source="tpPlace1_pPlace2_2" target="pPlace2">
 <graphics/>
 <inscription>
@@ -273,6 +306,19 @@
 </tagged>
 <arcpath id="000" x="411" y="155" curvePoint="false"/>
 <arcpath id="001" x="350" y="239" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tpPlace1_pPlace2_2 to pRobotOrder" source="tpPlace1_pPlace2_2" target="pRobotOrder">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="417" y="162" curvePoint="false"/>
+<arcpath id="001" x="345" y="462" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tpPlace2_pPlace1_1 to pPlace1" source="tpPlace2_pPlace1_1" target="pPlace1">
@@ -288,6 +334,19 @@
 <arcpath id="001" x="333" y="84" curvePoint="false"/>
 <type value="normal"/>
 </arc>
+<arc id="tpPlace2_pPlace1_1 to pRobotOrder" source="tpPlace2_pPlace1_1" target="pRobotOrder">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="282" y="162" curvePoint="false"/>
+<arcpath id="001" x="339" y="462" curvePoint="false"/>
+<type value="normal"/>
+</arc>
 <arc id="tpPlace2_pPlace1_2 to pPlace1" source="tpPlace2_pPlace1_2" target="pPlace1">
 <graphics/>
 <inscription>
@@ -299,6 +358,19 @@
 </tagged>
 <arcpath id="000" x="471" y="148" curvePoint="false"/>
 <arcpath id="001" x="354" y="79" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tpPlace2_pPlace1_2 to pRobotOrder" source="tpPlace2_pPlace1_2" target="pRobotOrder">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="477" y="162" curvePoint="false"/>
+<arcpath id="001" x="347" y="463" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 </net>

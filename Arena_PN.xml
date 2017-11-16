@@ -283,7 +283,7 @@
 </place>
 <place id="pslot2-1">
 <graphics>
-<position x="1635.0" y="420.0"/>
+<position x="1634.9999999999998" y="419.99999999999994"/>
 </graphics>
 <name>
 <value>pslot2-1</value>
@@ -303,7 +303,7 @@
 </place>
 <place id="pslot2-2">
 <graphics>
-<position x="1635.0" y="480.0"/>
+<position x="1634.9999999999998" y="480.00000000000006"/>
 </graphics>
 <name>
 <value>pslot2-2</value>
@@ -323,7 +323,7 @@
 </place>
 <place id="pslot2-3">
 <graphics>
-<position x="1635.0" y="540.0"/>
+<position x="1634.9999999999998" y="540.0"/>
 </graphics>
 <name>
 <value>pslot2-3</value>
@@ -461,6 +461,26 @@
 <value>0</value>
 </capacity>
 </place>
+<place id="pyBallBasket">
+<graphics>
+<position x="1215.0" y="30.0"/>
+</graphics>
+<name>
+<value>pyBallBasket</value>
+<graphics>
+<offset x="78.57142857142858" y="-2.8571428571428568"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
 <place id="pyBasket">
 <graphics>
 <position x="1080.0" y="30.0"/>
@@ -468,7 +488,7 @@
 <name>
 <value>pyBasket</value>
 <graphics>
-<offset x="38.75" y="41.25"/>
+<offset x="35.89285714285714" y="61.25"/>
 </graphics>
 </name>
 <initialMarking>
@@ -1038,7 +1058,7 @@
 <name>
 <value>tpy2_pyTower</value>
 <graphics>
-<offset x="71.09090909090907" y="-10.000000000000005"/>
+<offset x="59.090909090909065" y="-11.000000000000005"/>
 </graphics>
 </name>
 <orientation>
@@ -1293,7 +1313,7 @@
 </transition>
 <transition id="tslot2-1">
 <graphics>
-<position x="1560.0" y="405.0"/>
+<position x="1559.9999999999998" y="404.99999999999994"/>
 </graphics>
 <name>
 <value>tslot2-1</value>
@@ -1319,7 +1339,7 @@
 </transition>
 <transition id="tslot2-2">
 <graphics>
-<position x="1560.0" y="480.0"/>
+<position x="1559.9999999999998" y="480.00000000000006"/>
 </graphics>
 <name>
 <value>tslot2-2</value>
@@ -1345,7 +1365,7 @@
 </transition>
 <transition id="tslot2-3">
 <graphics>
-<position x="1560.0" y="555.0"/>
+<position x="1559.9999999999998" y="555.0"/>
 </graphics>
 <name>
 <value>tslot2-3</value>
@@ -1380,7 +1400,7 @@
 </graphics>
 </name>
 <orientation>
-<value>0</value>
+<value>270</value>
 </orientation>
 <rate>
 <value>1.0</value>
@@ -1577,6 +1597,32 @@
 <value>1</value>
 </priority>
 </transition>
+<transition id="tyBasket">
+<graphics>
+<position x="1155.0" y="30.0"/>
+</graphics>
+<name>
+<value>tyBasket</value>
+<graphics>
+<offset x="40.714285714285715" y="52.14285714285714"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
 <transition id="tyc1-ybasket">
 <graphics>
 <position x="975.0" y="30.0"/>
@@ -1742,8 +1788,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1042" y="736" curvePoint="false"/>
-<arcpath id="001" x="1062" y="717" curvePoint="false"/>
+<arcpath id="000" x="1040" y="732" curvePoint="false"/>
+<arcpath id="001" x="1060" y="714" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pbba2 to tbba2" source="pbba2" target="tbba2">
@@ -1755,8 +1801,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1085" y="655" curvePoint="false"/>
-<arcpath id="001" x="1062" y="687" curvePoint="false"/>
+<arcpath id="000" x="1081" y="651" curvePoint="false"/>
+<arcpath id="001" x="1060" y="684" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pbba2 to tbba2-c2Tower" source="pbba2" target="tbba2-c2Tower">
@@ -1768,8 +1814,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1106" y="642" curvePoint="false"/>
-<arcpath id="001" x="1206" y="642" curvePoint="false"/>
+<arcpath id="000" x="1104" y="639" curvePoint="false"/>
+<arcpath id="001" x="1204" y="639" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pbba2 to tbba2-yc2" source="pbba2" target="tbba2-yc2">
@@ -1781,8 +1827,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1083" y="629" curvePoint="false"/>
-<arcpath id="001" x="1036" y="567" curvePoint="false"/>
+<arcpath id="000" x="1080" y="627" curvePoint="false"/>
+<arcpath id="001" x="1034" y="564" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pc2TowerCylinder to tc2Tower" source="pc2TowerCylinder" target="tc2Tower">
@@ -1794,8 +1840,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1383" y="733" curvePoint="false"/>
-<arcpath id="001" x="1392" y="717" curvePoint="false"/>
+<arcpath id="000" x="1379" y="731" curvePoint="false"/>
+<arcpath id="001" x="1389" y="714" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pc2Tower to tc2Tower" source="pc2Tower" target="tc2Tower">
@@ -1807,8 +1853,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1370" y="654" curvePoint="false"/>
-<arcpath id="001" x="1392" y="687" curvePoint="false"/>
+<arcpath id="000" x="1367" y="651" curvePoint="false"/>
+<arcpath id="001" x="1389" y="684" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pc2Tower to tmc2-c2Tower" source="pc2Tower" target="tmc2-c2Tower">
@@ -1820,8 +1866,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1348" y="635" curvePoint="false"/>
-<arcpath id="001" x="1156" y="537" curvePoint="false"/>
+<arcpath id="000" x="1345" y="632" curvePoint="false"/>
+<arcpath id="001" x="1154" y="534" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pc2Tower to tslot2-c2Tower" source="pc2Tower" target="tslot2-c2Tower">
@@ -1833,8 +1879,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1376" y="639" curvePoint="false"/>
-<arcpath id="001" x="1461" y="627" curvePoint="false"/>
+<arcpath id="000" x="1374" y="637" curvePoint="false"/>
+<arcpath id="001" x="1449" y="622" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pmc1 to tmc1-mc3" source="tmCylinder1" target="tmc1-mc3">
@@ -1846,8 +1892,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="687" y="266" curvePoint="false"/>
-<arcpath id="001" x="687" y="342" curvePoint="false"/>
+<arcpath id="000" x="684" y="264" curvePoint="false"/>
+<arcpath id="001" x="685" y="339" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pmc1 to tmc1-sba2" source="tmCylinder1" target="tmc1-sba2">
@@ -1859,8 +1905,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="687" y="237" curvePoint="false"/>
-<arcpath id="001" x="687" y="147" curvePoint="false"/>
+<arcpath id="000" x="684" y="234" curvePoint="false"/>
+<arcpath id="001" x="684" y="144" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pmc2 to tmc2-c2Tower" source="pmc2" target="tmc2-c2Tower">
@@ -1872,8 +1918,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="954" y="410" curvePoint="false"/>
-<arcpath id="001" x="1146" y="537" curvePoint="false"/>
+<arcpath id="000" x="951" y="407" curvePoint="false"/>
+<arcpath id="001" x="1144" y="535" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pmc2 to tmc2-slot2" source="pmc2" target="tmc2-slot2">
@@ -1885,8 +1931,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="956" y="403" curvePoint="false"/>
-<arcpath id="001" x="1146" y="417" curvePoint="false"/>
+<arcpath id="000" x="954" y="399" curvePoint="false"/>
+<arcpath id="001" x="1144" y="415" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pmc2 to tmObject2" source="pmc2" target="tmCylinder2">
@@ -1898,8 +1944,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="954" y="394" curvePoint="false"/>
-<arcpath id="001" x="981" y="377" curvePoint="false"/>
+<arcpath id="000" x="949" y="389" curvePoint="false"/>
+<arcpath id="001" x="979" y="365" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pmc3 to tmc1-mc3" source="pmc3" target="tmc1-mc3">
@@ -1911,8 +1957,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="699" y="447" curvePoint="false"/>
-<arcpath id="001" x="687" y="372" curvePoint="false"/>
+<arcpath id="000" x="697" y="444" curvePoint="false"/>
+<arcpath id="001" x="684" y="369" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pmc3 to tmc3-mc2" source="pmc3" target="tmc3-mc2">
@@ -1924,8 +1970,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="715" y="455" curvePoint="false"/>
-<arcpath id="001" x="816" y="402" curvePoint="false"/>
+<arcpath id="000" x="712" y="452" curvePoint="false"/>
+<arcpath id="001" x="814" y="399" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pmc3 to tmc3-sba2" source="pmc3" target="tmc3-sba2">
@@ -1937,8 +1983,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="711" y="450" curvePoint="false"/>
-<arcpath id="001" x="811" y="322" curvePoint="false"/>
+<arcpath id="000" x="708" y="447" curvePoint="false"/>
+<arcpath id="001" x="808" y="319" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pmc3 to tmc3-slot2" source="pmc3" target="tmc3-slot2">
@@ -1950,8 +1996,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="716" y="464" curvePoint="false"/>
-<arcpath id="001" x="816" y="477" curvePoint="false"/>
+<arcpath id="000" x="714" y="461" curvePoint="false"/>
+<arcpath id="001" x="814" y="475" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pmc3 to tmObject3" source="pmc3" target="tmCylinder3">
@@ -1963,8 +2009,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="688" y="455" curvePoint="false"/>
-<arcpath id="001" x="646" y="437" curvePoint="false"/>
+<arcpath id="000" x="687" y="451" curvePoint="false"/>
+<arcpath id="001" x="644" y="424" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pmObject1 to T32" source="pmCylinder1" target="T32">
@@ -1976,8 +2022,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="606" y="158" curvePoint="false"/>
-<arcpath id="001" x="636" y="192" curvePoint="false"/>
+<arcpath id="000" x="604" y="155" curvePoint="false"/>
+<arcpath id="001" x="634" y="189" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pmObject2 to tmObject2" source="pmCylinder2" target="tmCylinder2">
@@ -1989,8 +2035,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1033" y="349" curvePoint="false"/>
-<arcpath id="001" x="991" y="372" curvePoint="false"/>
+<arcpath id="000" x="1031" y="345" curvePoint="false"/>
+<arcpath id="001" x="988" y="369" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pmObject3 to tmObject3" source="pmCylinder3" target="tmCylinder3">
@@ -2002,8 +2048,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="596" y="443" curvePoint="false"/>
-<arcpath id="001" x="636" y="432" curvePoint="false"/>
+<arcpath id="000" x="594" y="439" curvePoint="false"/>
+<arcpath id="001" x="634" y="429" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="psba2Ore to tsba2" source="psba2Ore" target="tsba2">
@@ -2015,8 +2061,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="713" y="66" curvePoint="false"/>
-<arcpath id="001" x="741" y="87" curvePoint="false"/>
+<arcpath id="000" x="711" y="62" curvePoint="false"/>
+<arcpath id="001" x="738" y="85" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="psba2 to tbba2-sba2" source="psba2" target="tbba2-sba2">
@@ -2028,8 +2074,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="836" y="136" curvePoint="false"/>
-<arcpath id="001" x="1086" y="222" curvePoint="false"/>
+<arcpath id="000" x="832" y="134" curvePoint="false"/>
+<arcpath id="001" x="1084" y="219" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="psba2 to tsba2" source="psba2" target="tsba2">
@@ -2041,8 +2087,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="808" y="124" curvePoint="false"/>
-<arcpath id="001" x="751" y="92" curvePoint="false"/>
+<arcpath id="000" x="805" y="121" curvePoint="false"/>
+<arcpath id="001" x="748" y="89" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="psba2 to tsba2-c2Tower" source="psba2" target="tsba2-c2Tower">
@@ -2054,8 +2100,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="836" y="134" curvePoint="false"/>
-<arcpath id="001" x="1356" y="222" curvePoint="false"/>
+<arcpath id="000" x="834" y="131" curvePoint="false"/>
+<arcpath id="001" x="1354" y="219" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="psba2 to tsba2-mc2" source="psba2" target="tsba2-mc2">
@@ -2067,8 +2113,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="831" y="143" curvePoint="false"/>
-<arcpath id="001" x="936" y="267" curvePoint="false"/>
+<arcpath id="000" x="828" y="141" curvePoint="false"/>
+<arcpath id="001" x="934" y="265" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="psba2 to tsba2-slot2" source="psba2" target="tsba2-slot2">
@@ -2080,8 +2126,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="837" y="132" curvePoint="false"/>
-<arcpath id="001" x="1461" y="132" curvePoint="false"/>
+<arcpath id="000" x="834" y="130" curvePoint="false"/>
+<arcpath id="001" x="1458" y="130" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="psba2 to tsba2-slot4" source="psba2" target="tsba2-slot4">
@@ -2093,8 +2139,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="815" y="145" curvePoint="false"/>
-<arcpath id="001" x="773" y="256" curvePoint="false"/>
+<arcpath id="000" x="814" y="142" curvePoint="false"/>
+<arcpath id="001" x="769" y="254" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="psba2 to tsba2-yc1" source="psba2" target="tsba2-yc1">
@@ -2106,8 +2152,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="819" y="117" curvePoint="false"/>
-<arcpath id="001" x="807" y="57" curvePoint="false"/>
+<arcpath id="000" x="815" y="114" curvePoint="false"/>
+<arcpath id="001" x="804" y="54" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="psba4Ore to tsba4" source="psba4Ore" target="tsba4">
@@ -2119,8 +2165,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="712" y="721" curvePoint="false"/>
-<arcpath id="001" x="732" y="702" curvePoint="false"/>
+<arcpath id="000" x="709" y="718" curvePoint="false"/>
+<arcpath id="001" x="729" y="699" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="psba4 to tsba4" source="psba4" target="tsba4">
@@ -2132,8 +2178,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="766" y="652" curvePoint="false"/>
-<arcpath id="001" x="737" y="682" curvePoint="false"/>
+<arcpath id="000" x="762" y="649" curvePoint="false"/>
+<arcpath id="001" x="734" y="679" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="psba4 to tsba4-bba2" source="psba4" target="tsba4-bba2">
@@ -2145,8 +2191,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="791" y="642" curvePoint="false"/>
-<arcpath id="001" x="936" y="642" curvePoint="false"/>
+<arcpath id="000" x="789" y="639" curvePoint="false"/>
+<arcpath id="001" x="934" y="639" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="psba4 to tsba4-yc2" source="psba4" target="tsba4-yc2">
@@ -2158,8 +2204,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="785" y="629" curvePoint="false"/>
-<arcpath id="001" x="831" y="567" curvePoint="false"/>
+<arcpath id="000" x="782" y="627" curvePoint="false"/>
+<arcpath id="001" x="828" y="565" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pslot2-1 to tslot2-1" source="pslot2-1" target="tslot2-1">
@@ -2171,9 +2217,9 @@
 <tagged>
 <value/>
 </tagged>
-<arcpath id="000" x="1632" y="427" curvePoint="false"/>
-<arcpath id="001" x="1603" y="418" curvePoint="false"/>
-<arcpath id="002" x="1577" y="412" curvePoint="false"/>
+<arcpath id="000" x="1629" y="424" curvePoint="false"/>
+<arcpath id="001" x="1599" y="415" curvePoint="false"/>
+<arcpath id="002" x="1574" y="409" curvePoint="false"/>
 <type value="inhibitor"/>
 </arc>
 <arc id="pslot2-2 to tslot2-2" source="pslot2-2" target="tslot2-2">
@@ -2185,8 +2231,21 @@
 <tagged>
 <value/>
 </tagged>
-<arcpath id="000" x="1632" y="493" curvePoint="false"/>
-<arcpath id="001" x="1571" y="499" curvePoint="false"/>
+<arcpath id="000" x="1629" y="488" curvePoint="false"/>
+<arcpath id="001" x="1575" y="489" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="pslot2-2 to tslot2-2" source="pslot2-2" target="tslot2-2">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="1629" y="488" curvePoint="false"/>
+<arcpath id="001" x="1575" y="489" curvePoint="false"/>
 <type value="inhibitor"/>
 </arc>
 <arc id="pslot2-3 to tslot2-3" source="pslot2-3" target="tslot2-3">
@@ -2198,8 +2257,8 @@
 <tagged>
 <value/>
 </tagged>
-<arcpath id="000" x="1632" y="556" curvePoint="false"/>
-<arcpath id="001" x="1576" y="572" curvePoint="false"/>
+<arcpath id="000" x="1629" y="552" curvePoint="false"/>
+<arcpath id="001" x="1574" y="570" curvePoint="false"/>
 <type value="inhibitor"/>
 </arc>
 <arc id="pslot2 to tslot2-1" source="pslot2" target="tslot2-1">
@@ -2211,8 +2270,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1478" y="482" curvePoint="false"/>
-<arcpath id="001" x="1567" y="412" curvePoint="false"/>
+<arcpath id="000" x="1474" y="478" curvePoint="false"/>
+<arcpath id="001" x="1564" y="409" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pslot2 to tslot2-2" source="pslot2" target="tslot2-2">
@@ -2224,8 +2283,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1481" y="491" curvePoint="false"/>
-<arcpath id="001" x="1571" y="485" curvePoint="false"/>
+<arcpath id="000" x="1478" y="488" curvePoint="false"/>
+<arcpath id="001" x="1561" y="489" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pslot2 to tslot2-3" source="pslot2" target="tslot2-3">
@@ -2237,8 +2296,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1479" y="500" curvePoint="false"/>
-<arcpath id="001" x="1567" y="562" curvePoint="false"/>
+<arcpath id="000" x="1474" y="499" curvePoint="false"/>
+<arcpath id="001" x="1564" y="570" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pslot4 to tslot4-slot5" source="pslot4" target="tslot4-slot5">
@@ -2250,8 +2309,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="492" y="461" curvePoint="false"/>
-<arcpath id="001" x="492" y="612" curvePoint="false"/>
+<arcpath id="000" x="489" y="459" curvePoint="false"/>
+<arcpath id="001" x="489" y="609" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pslot5 to tslot5-mc3" source="pslot5" target="tslot5-mc3">
@@ -2263,8 +2322,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="588" y="613" curvePoint="false"/>
-<arcpath id="001" x="636" y="522" curvePoint="false"/>
+<arcpath id="000" x="587" y="611" curvePoint="false"/>
+<arcpath id="001" x="639" y="534" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pslot5 to tslot5-sba4" source="pslot5" target="tslot5-sba4">
@@ -2276,8 +2335,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="596" y="629" curvePoint="false"/>
-<arcpath id="001" x="681" y="642" curvePoint="false"/>
+<arcpath id="000" x="594" y="627" curvePoint="false"/>
+<arcpath id="001" x="678" y="639" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pStartRobot1 to tStartRobot1" source="pStartRobot1" target="tStartRobot1">
@@ -2289,8 +2348,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="57" y="41" curvePoint="false"/>
-<arcpath id="001" x="57" y="72" curvePoint="false"/>
+<arcpath id="000" x="54" y="38" curvePoint="false"/>
+<arcpath id="001" x="55" y="70" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pStartRobot2 to tStartRobot2" source="pStartRobot2" target="tStartRobot2">
@@ -2302,8 +2361,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="327" y="41" curvePoint="false"/>
-<arcpath id="001" x="327" y="72" curvePoint="false"/>
+<arcpath id="000" x="324" y="38" curvePoint="false"/>
+<arcpath id="001" x="325" y="70" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="py1 to ty1" source="py1" target="ty1">
@@ -2315,8 +2374,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="71" y="132" curvePoint="false"/>
-<arcpath id="001" x="126" y="132" curvePoint="false"/>
+<arcpath id="000" x="70" y="130" curvePoint="false"/>
+<arcpath id="001" x="124" y="130" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="py2 to tyTower" source="py2" target="tpy2_pyTower">
@@ -2328,8 +2387,21 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="341" y="132" curvePoint="false"/>
-<arcpath id="001" x="486" y="132" curvePoint="false"/>
+<arcpath id="000" x="339" y="130" curvePoint="false"/>
+<arcpath id="001" x="484" y="130" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="pyBasket to tyBasket" source="pyBasket" target="tyBasket">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1104" y="38" curvePoint="false"/>
+<arcpath id="001" x="1160" y="35" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pyc1 to tyc1-ybasket" source="pyc1" target="tyc1-ybasket">
@@ -2341,8 +2413,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="911" y="42" curvePoint="false"/>
-<arcpath id="001" x="981" y="42" curvePoint="false"/>
+<arcpath id="000" x="909" y="39" curvePoint="false"/>
+<arcpath id="001" x="978" y="39" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pyc1 to tyObject1" source="pyc1" target="tyCylinder1">
@@ -2354,8 +2426,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="905" y="54" curvePoint="false"/>
-<arcpath id="001" x="937" y="97" curvePoint="false"/>
+<arcpath id="000" x="902" y="51" curvePoint="false"/>
+<arcpath id="001" x="934" y="105" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pyc2 to tbba2-yc2" source="pyc2" target="tbba2-yc2">
@@ -2367,8 +2439,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="956" y="567" curvePoint="false"/>
-<arcpath id="001" x="1026" y="567" curvePoint="false"/>
+<arcpath id="000" x="954" y="564" curvePoint="false"/>
+<arcpath id="001" x="1024" y="565" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pyc2 to tyObject2" source="pyc2" target="tyCylinder2">
@@ -2380,8 +2452,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="949" y="553" curvePoint="false"/>
-<arcpath id="001" x="966" y="523" curvePoint="false"/>
+<arcpath id="000" x="947" y="551" curvePoint="false"/>
+<arcpath id="001" x="964" y="525" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pyObject1 to tyObject1" source="pyCylinder1" target="tyCylinder1">
@@ -2393,8 +2465,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="987" y="102" curvePoint="false"/>
-<arcpath id="001" x="946" y="102" curvePoint="false"/>
+<arcpath id="000" x="984" y="98" curvePoint="false"/>
+<arcpath id="001" x="944" y="99" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pyObject2 to tyObject2" source="pyCylinder2" target="tyCylinder2">
@@ -2406,8 +2478,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="941" y="510" curvePoint="false"/>
-<arcpath id="001" x="967" y="516" curvePoint="false"/>
+<arcpath id="000" x="938" y="508" curvePoint="false"/>
+<arcpath id="001" x="964" y="515" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pyRamp to ty2" source="pyRamp" target="ty2">
@@ -2419,8 +2491,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="191" y="132" curvePoint="false"/>
-<arcpath id="001" x="246" y="132" curvePoint="false"/>
+<arcpath id="000" x="189" y="130" curvePoint="false"/>
+<arcpath id="001" x="244" y="130" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pyTowerCylinder to tyTower" source="pyTowerCylinder" target="tyTower">
@@ -2432,8 +2504,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="251" y="280" curvePoint="false"/>
-<arcpath id="001" x="351" y="267" curvePoint="false"/>
+<arcpath id="000" x="248" y="277" curvePoint="false"/>
+<arcpath id="001" x="348" y="265" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pyTower to tyTower" source="pyTower" target="tyTower">
@@ -2445,8 +2517,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="477" y="267" curvePoint="false"/>
-<arcpath id="001" x="361" y="272" curvePoint="false"/>
+<arcpath id="000" x="474" y="264" curvePoint="false"/>
+<arcpath id="001" x="359" y="260" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pyTower to tyTower-mc1" source="pyTower" target="tyTower-mc1">
@@ -2458,8 +2530,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="506" y="264" curvePoint="false"/>
-<arcpath id="001" x="576" y="252" curvePoint="false"/>
+<arcpath id="000" x="504" y="261" curvePoint="false"/>
+<arcpath id="001" x="574" y="249" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="pyTower to tyTower-slot4" source="pyTower" target="tyTower-slot4">
@@ -2471,8 +2543,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="492" y="281" curvePoint="false"/>
-<arcpath id="001" x="492" y="342" curvePoint="false"/>
+<arcpath id="000" x="489" y="278" curvePoint="false"/>
+<arcpath id="001" x="489" y="339" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="T32 to tmObject1" source="T32" target="tmCylinder1">
@@ -2484,8 +2556,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="646" y="197" curvePoint="false"/>
-<arcpath id="001" x="678" y="239" curvePoint="false"/>
+<arcpath id="000" x="644" y="194" curvePoint="false"/>
+<arcpath id="001" x="675" y="237" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tbba2-c2Tower to pc2Tower" source="tbba2-c2Tower" target="pc2Tower">
@@ -2497,8 +2569,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1216" y="642" curvePoint="false"/>
-<arcpath id="001" x="1347" y="642" curvePoint="false"/>
+<arcpath id="000" x="1214" y="639" curvePoint="false"/>
+<arcpath id="001" x="1344" y="638" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tbba2-sba2 to pbba2" source="tbba2-sba2" target="pbba2">
@@ -2510,8 +2582,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1092" y="237" curvePoint="false"/>
-<arcpath id="001" x="1092" y="627" curvePoint="false"/>
+<arcpath id="000" x="1090" y="234" curvePoint="false"/>
+<arcpath id="001" x="1088" y="624" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tbba2 to pbba2" source="tbba2" target="pbba2">
@@ -2523,8 +2595,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1066" y="702" curvePoint="false"/>
-<arcpath id="001" x="1086" y="655" curvePoint="false"/>
+<arcpath id="000" x="1060" y="684" curvePoint="false"/>
+<arcpath id="001" x="1081" y="651" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tc2Tower to pc2Tower" source="tc2Tower" target="pc2Tower">
@@ -2536,8 +2608,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1392" y="687" curvePoint="false"/>
-<arcpath id="001" x="1370" y="654" curvePoint="false"/>
+<arcpath id="000" x="1389" y="684" curvePoint="false"/>
+<arcpath id="001" x="1367" y="651" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tmc1-sba2 to psba2" source="tmc1-sba2" target="psba2">
@@ -2549,8 +2621,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="691" y="132" curvePoint="false"/>
-<arcpath id="001" x="807" y="132" curvePoint="false"/>
+<arcpath id="000" x="688" y="130" curvePoint="false"/>
+<arcpath id="001" x="804" y="128" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tmc2-slot2 to pslot2" source="tmc2-slot2" target="pslot2">
@@ -2562,8 +2634,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1156" y="417" curvePoint="false"/>
-<arcpath id="001" x="1452" y="488" curvePoint="false"/>
+<arcpath id="000" x="1154" y="414" curvePoint="false"/>
+<arcpath id="001" x="1449" y="485" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tmc3-mc2 to pmc2" source="tmc3-mc2" target="pmc2">
@@ -2575,8 +2647,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="826" y="402" curvePoint="false"/>
-<arcpath id="001" x="927" y="402" curvePoint="false"/>
+<arcpath id="000" x="824" y="399" curvePoint="false"/>
+<arcpath id="001" x="924" y="398" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tmc3-sba2 to psba2" source="tmc3-sba2" target="psba2">
@@ -2588,8 +2660,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="817" y="308" curvePoint="false"/>
-<arcpath id="001" x="822" y="146" curvePoint="false"/>
+<arcpath id="000" x="815" y="305" curvePoint="false"/>
+<arcpath id="001" x="818" y="144" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tmc3-slot2 to pslot2" source="tmc3-slot2" target="pslot2">
@@ -2601,8 +2673,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="826" y="477" curvePoint="false"/>
-<arcpath id="001" x="1452" y="491" curvePoint="false"/>
+<arcpath id="000" x="824" y="474" curvePoint="false"/>
+<arcpath id="001" x="1449" y="488" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tmObject1 to T32" source="tmCylinder1" target="T32">
@@ -2614,8 +2686,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="679" y="239" curvePoint="false"/>
-<arcpath id="001" x="647" y="187" curvePoint="false"/>
+<arcpath id="000" x="675" y="237" curvePoint="false"/>
+<arcpath id="001" x="644" y="184" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tmObject2 to pmc2" source="tmCylinder2" target="pmc2">
@@ -2627,8 +2699,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="982" y="367" curvePoint="false"/>
-<arcpath id="001" x="953" y="392" curvePoint="false"/>
+<arcpath id="000" x="978" y="375" curvePoint="false"/>
+<arcpath id="001" x="951" y="391" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tmObject3 to pmc3" source="tmCylinder3" target="pmc3">
@@ -2640,8 +2712,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="647" y="427" curvePoint="false"/>
-<arcpath id="001" x="689" y="453" curvePoint="false"/>
+<arcpath id="000" x="644" y="434" curvePoint="false"/>
+<arcpath id="001" x="685" y="452" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tsba2-c2Tower to pc2Tower" source="tsba2-c2Tower" target="pc2Tower">
@@ -2653,8 +2725,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1362" y="237" curvePoint="false"/>
-<arcpath id="001" x="1362" y="627" curvePoint="false"/>
+<arcpath id="000" x="1359" y="234" curvePoint="false"/>
+<arcpath id="001" x="1358" y="624" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tsba2-mc2 to pmc2" source="tsba2-mc2" target="pmc2">
@@ -2666,8 +2738,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="942" y="282" curvePoint="false"/>
-<arcpath id="001" x="942" y="387" curvePoint="false"/>
+<arcpath id="000" x="939" y="280" curvePoint="false"/>
+<arcpath id="001" x="938" y="384" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tsba2-slot2 to pslot2" source="tsba2-slot2" target="pslot2">
@@ -2679,8 +2751,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1467" y="147" curvePoint="false"/>
-<arcpath id="001" x="1467" y="477" curvePoint="false"/>
+<arcpath id="000" x="1464" y="144" curvePoint="false"/>
+<arcpath id="001" x="1464" y="474" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tsba2-slot4 to pslot4" source="tsba2-slot4" target="pslot4">
@@ -2692,8 +2764,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="751" y="277" curvePoint="false"/>
-<arcpath id="001" x="504" y="438" curvePoint="false"/>
+<arcpath id="000" x="748" y="275" curvePoint="false"/>
+<arcpath id="001" x="501" y="435" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tsba2 to psba2" source="tsba2" target="psba2">
@@ -2705,8 +2777,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="752" y="82" curvePoint="false"/>
-<arcpath id="001" x="809" y="123" curvePoint="false"/>
+<arcpath id="000" x="749" y="79" curvePoint="false"/>
+<arcpath id="001" x="807" y="119" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tsba2-yc1 to pyc1" source="tsba2-yc1" target="pyc1">
@@ -2718,8 +2790,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="811" y="42" curvePoint="false"/>
-<arcpath id="001" x="882" y="42" curvePoint="false"/>
+<arcpath id="000" x="808" y="39" curvePoint="false"/>
+<arcpath id="001" x="879" y="38" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tsba4-bba2 to pbba2" source="tsba4-bba2" target="pbba2">
@@ -2731,8 +2803,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="946" y="642" curvePoint="false"/>
-<arcpath id="001" x="1077" y="642" curvePoint="false"/>
+<arcpath id="000" x="944" y="639" curvePoint="false"/>
+<arcpath id="001" x="1074" y="638" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tsba4 to psba4" source="tsba4" target="psba4">
@@ -2744,8 +2816,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="736" y="692" curvePoint="false"/>
-<arcpath id="001" x="767" y="653" curvePoint="false"/>
+<arcpath id="000" x="734" y="689" curvePoint="false"/>
+<arcpath id="001" x="764" y="651" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tsba4-yc2 to pyc2" source="tsba4-yc2" target="pyc2">
@@ -2757,8 +2829,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="841" y="567" curvePoint="false"/>
-<arcpath id="001" x="927" y="567" curvePoint="false"/>
+<arcpath id="000" x="838" y="564" curvePoint="false"/>
+<arcpath id="001" x="924" y="564" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tslot2-1 to pslot2" source="tslot2-1" target="pslot2">
@@ -2770,8 +2842,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1566" y="422" curvePoint="false"/>
-<arcpath id="001" x="1479" y="483" curvePoint="false"/>
+<arcpath id="000" x="1564" y="419" curvePoint="false"/>
+<arcpath id="001" x="1477" y="479" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tslot2-1 to pslot2-1" source="tslot2-1" target="pslot2-1">
@@ -2783,8 +2855,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1576" y="422" curvePoint="false"/>
-<arcpath id="001" x="1632" y="429" curvePoint="false"/>
+<arcpath id="000" x="1574" y="419" curvePoint="false"/>
+<arcpath id="001" x="1629" y="427" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tslot2-2 to pslot2" source="tslot2-2" target="pslot2">
@@ -2796,8 +2868,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1564" y="492" curvePoint="false"/>
-<arcpath id="001" x="1481" y="492" curvePoint="false"/>
+<arcpath id="000" x="1568" y="482" curvePoint="false"/>
+<arcpath id="001" x="1478" y="488" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tslot2-2 to pslot2-2" source="tslot2-2" target="pslot2-2">
@@ -2809,8 +2881,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1579" y="492" curvePoint="false"/>
-<arcpath id="001" x="1632" y="492" curvePoint="false"/>
+<arcpath id="000" x="1568" y="495" curvePoint="false"/>
+<arcpath id="001" x="1629" y="489" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tslot2-3 to pslot2" source="tslot2-3" target="pslot2">
@@ -2822,8 +2894,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1566" y="572" curvePoint="false"/>
-<arcpath id="001" x="1478" y="501" curvePoint="false"/>
+<arcpath id="000" x="1564" y="560" curvePoint="false"/>
+<arcpath id="001" x="1477" y="498" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tslot2-3 to pslot2-3" source="tslot2-3" target="pslot2-3">
@@ -2835,8 +2907,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1577" y="562" curvePoint="false"/>
-<arcpath id="001" x="1632" y="554" curvePoint="false"/>
+<arcpath id="000" x="1574" y="560" curvePoint="false"/>
+<arcpath id="001" x="1629" y="551" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tslot2-c2Tower to pslot2" source="tslot2-c2Tower" target="pslot2">
@@ -2848,8 +2920,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="1467" y="612" curvePoint="false"/>
-<arcpath id="001" x="1467" y="506" curvePoint="false"/>
+<arcpath id="000" x="1464" y="619" curvePoint="false"/>
+<arcpath id="001" x="1464" y="504" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tslot4-slot5 to pslot5" source="tslot4-slot5" target="pslot5">
@@ -2861,8 +2933,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="496" y="627" curvePoint="false"/>
-<arcpath id="001" x="567" y="627" curvePoint="false"/>
+<arcpath id="000" x="494" y="624" curvePoint="false"/>
+<arcpath id="001" x="564" y="624" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tslot5-mc3 to pmc3" source="tslot5-mc3" target="pmc3">
@@ -2874,8 +2946,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="646" y="522" curvePoint="false"/>
-<arcpath id="001" x="691" y="473" curvePoint="false"/>
+<arcpath id="000" x="644" y="520" curvePoint="false"/>
+<arcpath id="001" x="688" y="469" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tslot5-sba4 to psba4" source="tslot5-sba4" target="psba4">
@@ -2887,8 +2959,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="691" y="642" curvePoint="false"/>
-<arcpath id="001" x="762" y="642" curvePoint="false"/>
+<arcpath id="000" x="688" y="639" curvePoint="false"/>
+<arcpath id="001" x="759" y="638" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tStartRobot1 to py1" source="tStartRobot1" target="py1">
@@ -2900,8 +2972,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="57" y="102" curvePoint="false"/>
-<arcpath id="001" x="57" y="117" curvePoint="false"/>
+<arcpath id="000" x="54" y="99" curvePoint="false"/>
+<arcpath id="001" x="54" y="114" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tStartRobot2 to py2" source="tStartRobot2" target="py2">
@@ -2913,8 +2985,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="327" y="102" curvePoint="false"/>
-<arcpath id="001" x="327" y="117" curvePoint="false"/>
+<arcpath id="000" x="324" y="99" curvePoint="false"/>
+<arcpath id="001" x="324" y="114" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="ty1 to pyRamp" source="ty1" target="pyRamp">
@@ -2926,8 +2998,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="136" y="132" curvePoint="false"/>
-<arcpath id="001" x="162" y="132" curvePoint="false"/>
+<arcpath id="000" x="134" y="130" curvePoint="false"/>
+<arcpath id="001" x="159" y="128" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="ty2 to py2" source="ty2" target="py2">
@@ -2939,8 +3011,34 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="256" y="132" curvePoint="false"/>
-<arcpath id="001" x="312" y="132" curvePoint="false"/>
+<arcpath id="000" x="254" y="130" curvePoint="false"/>
+<arcpath id="001" x="309" y="128" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tyBasket to pyBallBasket" source="tyBasket" target="pyBallBasket">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1168" y="39" curvePoint="false"/>
+<arcpath id="001" x="1209" y="38" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="tyBasket to pyBasket" source="tyBasket" target="pyBasket">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1158" y="45" curvePoint="false"/>
+<arcpath id="001" x="1104" y="39" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tyc1-ybasket to pyBasket" source="tyc1-ybasket" target="pyBasket">
@@ -2952,8 +3050,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="991" y="42" curvePoint="false"/>
-<arcpath id="001" x="1077" y="42" curvePoint="false"/>
+<arcpath id="000" x="988" y="39" curvePoint="false"/>
+<arcpath id="001" x="1074" y="38" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tyObject1 to pyc1" source="tyCylinder1" target="pyc1">
@@ -2965,8 +3063,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="936" y="107" curvePoint="false"/>
-<arcpath id="001" x="904" y="54" curvePoint="false"/>
+<arcpath id="000" x="934" y="95" curvePoint="false"/>
+<arcpath id="001" x="902" y="51" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tyObject2 to pyc2" source="tyCylinder2" target="pyc2">
@@ -2978,8 +3076,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="966" y="530" curvePoint="false"/>
-<arcpath id="001" x="950" y="554" curvePoint="false"/>
+<arcpath id="000" x="969" y="534" curvePoint="false"/>
+<arcpath id="001" x="949" y="552" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tyTower-mc1 to pmc1" source="tyTower-mc1" target="tmCylinder1">
@@ -2991,8 +3089,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="586" y="252" curvePoint="false"/>
-<arcpath id="001" x="672" y="252" curvePoint="false"/>
+<arcpath id="000" x="584" y="249" curvePoint="false"/>
+<arcpath id="001" x="669" y="248" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tyTower-slot4 to pslot4" source="tyTower-slot4" target="pslot4">
@@ -3004,8 +3102,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="492" y="372" curvePoint="false"/>
-<arcpath id="001" x="492" y="432" curvePoint="false"/>
+<arcpath id="000" x="489" y="369" curvePoint="false"/>
+<arcpath id="001" x="488" y="429" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tyTower to pyTower" source="tpy2_pyTower" target="pyTower">
@@ -3017,8 +3115,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="492" y="147" curvePoint="false"/>
-<arcpath id="001" x="492" y="252" curvePoint="false"/>
+<arcpath id="000" x="489" y="144" curvePoint="false"/>
+<arcpath id="001" x="488" y="249" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 <arc id="tyTower to pyTower" source="tyTower" target="pyTower">
@@ -3030,8 +3128,8 @@
 <tagged>
 <value>false</value>
 </tagged>
-<arcpath id="000" x="362" y="262" curvePoint="false"/>
-<arcpath id="001" x="477" y="266" curvePoint="false"/>
+<arcpath id="000" x="358" y="270" curvePoint="false"/>
+<arcpath id="001" x="474" y="264" curvePoint="false"/>
 <type value="normal"/>
 </arc>
 </net>
