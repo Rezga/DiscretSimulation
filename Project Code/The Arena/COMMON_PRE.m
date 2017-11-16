@@ -34,6 +34,7 @@ function [fire, transition] = COMMON_PRE(transition)
         
     elseif(strcmp(transition.name,'tmCylinder1')||strcmp(transition.name,'tmCylinder2')||strcmp(transition.name,'tmCylinder3')||strcmp(transition.name,'tyCylinder1')||strcmp(transition.name,'tyCylinder2')) 
         place=strcat('p',transition.name(2),'c',transition.name(11));
+        place
         tokRobot=tokenAnyColor(place,'1',{'robot2'});
         tokCylin=tokenWOAnyColor(place,'1',{'2cylinder'});
         if(tokRobot(1)==tokCylin(1))
@@ -81,28 +82,44 @@ function [fire, transition] = COMMON_PRE(transition)
         
     elseif(strcmp(transition.name,'tyTower')||strcmp(transition.name,'tc2Tower'))
         place=strcat('p',transition.name(2:end));
-        tokTake=tokenAllColor(place,'1',{'robot2'});
-        tokTake=tokTake(1);
-
-        if(tokTake)
+        tokRobot=tokenAnyColor(place,'1',{'robot2'});
+        tokCylin=tokenWOAnyColor(place,'1',{'2cylinder'});
+        if(tokRobot(1)==tokCylin(1))
+            tokRobot=tokRobot(1);
+        else
+            tokRobot=0;
+        end
+        if(tokRobot)
             granted = request(transition.name, {'robot2',1});        
             if granted
-                colors=get_color(place,tokTake);
+                colors=get_color(place,tokRobot);
                 transition.new_color={};     
                 j=1;
+                cylinder=0;
                 for i=1:length(colors)
-                    if(not(isOrder(colors{i})))
+                    if(not(isOrder(colors{i}))&&not(strcmp(colors{i},'cylinder')))
                         transition.new_color{1,j}=colors{i};
                         j=j+1;
+                    elseif(strcmp(colors{i},'cylinder'))
+                        cylinder=1;
                     end
                 end
-                transition.override=1;        
-                transition.new_color{1,j}='cylinder';
+                transition.override=1;
+                if cylinder
+                    transition.new_color{1,j}='2cylinder';
+                else
+                    transition.new_color{1,j}='cylinder';
+                end
                 transition.new_color{1,j+1}='closeThong';
-                priority_slot()
             end
+            if(place=='pyTower')
+                global_info.yTower=global_info.yTower-1;
+            elseif(place=='pmc2Tower')
+                global_info.c2Tower=global_info.c2Tower-1;
+            end
+             priority_slot()
         end
-        fire=tokTake&&granted;
+        fire=0;%tokRobot&&granted;
         
     elseif(strcmp(transition.name,'tsba2')||strcmp(transition.name,'tsba4')||strcmp(transition.name,'tbba2'))
         place=strcat('p',transition.name(2:end));
@@ -169,7 +186,7 @@ function [fire, transition] = COMMON_PRE(transition)
         transition.new_color={'robot2'};
         fire=1;
         
-    elseif(strcmp(transition.name,'tpRobotOrder_pRobot1')||strcmp(transition.name,'tpRobot1_pCannon')||strcmp(transition.name,'tpRobot1_pBrush')||strcmp(transition.name,'tpRobot1_pWheels1')||strcmp(transition.name,'tpRobotOrder_pRobot2')||strcmp(transition.name,'tpRobot2_pWheels2')||strcmp(transition.name,'tpRobot2_pThongs')||strcmp(transition.name,'tpThongs_prThongClose')||strcmp(transition.name,'tpThongs_plThongClose')||strcmp(transition.name,'tpThongs_plThongOpen')||strcmp(transition.name,'tpThongs_prThongOpen')||strcmp(transition.name,'tGoto1')||strcmp(transition.name,'tMoving1')||strcmp(transition.name,'tReStart1')||strcmp(transition.name,'tStop1')||strcmp(transition.name,'tCaptor1')||strcmp(transition.name,'tFinish1'))
+    elseif(strcmp(transition.name,'tpRobotOrder_pRobot1')||strcmp(transition.name,'tpRobot1_pCannon')||strcmp(transition.name,'tpRobot1_pBrush')||strcmp(transition.name,'tpRobot1_pWheels1')||strcmp(transition.name,'tpRobotOrder_pRobot2')||strcmp(transition.name,'tpRobot2_pWheels2')||strcmp(transition.name,'tpRobot2_pThongs')||strcmp(transition.name,'tpThongs_prThongClose')||strcmp(transition.name,'tpThongs_plThongClose')||strcmp(transition.name,'tpThongs_plThongOpen')||strcmp(transition.name,'tpThongs_prThongOpen')||strcmp(transition.name,'tGoto1')||strcmp(transition.name,'tMoving1')||strcmp(transition.name,'tReStart1')||strcmp(transition.name,'tStop1')||strcmp(transition.name,'tCaptor1')||strcmp(transition.name,'tFinish1')||strcmp(transition.name,'tGoto2')||strcmp(transition.name,'tMoving2')||strcmp(transition.name,'tReStart2')||strcmp(transition.name,'tStop2')||strcmp(transition.name,'tCaptor2')||strcmp(transition.name,'tFinish2'))
         fire=1;
         
     else
@@ -289,7 +306,7 @@ function [fire, transition] = COMMON_PRE(transition)
     function priority_cylinder()
         priorset('tpy1_pyRamp_2', 1)
         priorset('tpyRamp_py2_2', 1)
-        if(global_info.ytower)
+        if(global_info.yTower)
             priorset('tpy2_pyTower_2', 4)
             priorset('tpslot4_pyTower_2', 4)
             priorset('tpmc1_pyTower_2', 4)
@@ -352,6 +369,8 @@ function [fire, transition] = COMMON_PRE(transition)
     end
 
     function priority_slot()
+        priorset('tyTower',10)
+        
         priorset('tpy2_pyTower_2', 2)
         priorset('tpmc1_pyTower_2', 2)
         priorset('tpyc1_psba2_2', 2)
