@@ -1,7 +1,7 @@
 function [png] = robot2_pn_pdf()
 
 png.PN_name = 'Model of the second robot';
-png.set_of_Ps = {'pRobot2','pWheels2','pThongs','plThongOpen','prThongOpen','prThongClose','plThongClose'};
+png.set_of_Ps = {'pRobot2','pWheels2','pThongs','plThongOpen','prThongOpen','prThongClose','plThongClose',};
 png.set_of_Ts={'tpRobot2_pWheels2','tpRobot2_pThongs','tpThongs_prThongClose','tpThongs_plThongClose','tpThongs_plThongOpen','tpThongs_prThongOpen'};
 png.set_of_As={'pRobot2','tpRobot2_pWheels2',1,'tpRobot2_pWheels2','pWheels2',1,...
                'pRobot2','tpRobot2_pThongs',1,'tpRobot2_pThongs','pThongs',1,...
