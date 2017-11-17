@@ -17,7 +17,8 @@ if tokID
             distance=str2num(order{4}(2:end));
             if(distance>0)
                 distance=distance-100;
-                transition.new_color{1,j+1}=strcat('goto_',order{2},'_',order{3},'_D',num2str(distance));
+                transition.new_color{1,j}=strcat('goto_',order{2},'_',order{3},'_D',num2str(distance));
+                j=j+1;
             else
                 tokID=0;
             end
